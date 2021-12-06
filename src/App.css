@@ -1,38 +1,105 @@
-.App {
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul li{
+list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.sidebar {
+  display:flex;
+  justify-content:space-around;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color:white;
+  
+
+}
+.sidebar a{
+  margin: auto;
+  color:white;
+}
+.sidebar :hover{
+font-size: 23px;
+border-bottom: 1px solid red;
+transition: 400ms;
+}
+
+.main{
+  background-image: url(https://www.lifeder.com/wp-content/uploads/2019/12/matematicas-concepto-lifeder-min-1024x682.jpg);
+  height: 550px;
+}
+.imagenBuho img{
+  width: 500px; 
+}
+.bienve{
+ text-align: center;
+}
+.bienve h1{
+  font-size:60px;
+}
+
+.operacion{
   text-align: center;
+  padding: 100px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.operacion input{
+  width: 200px;
+  font-size: 30px;
+  text-align: center;
+  margin-top:10px ;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.operacion i{
+  font-size: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input3 {
+font-size: 20px;
+width: 100px;
+color:blue;
+margin: auto;
+margin-top: 30px;
+background-color: yellowgreen;
+
+}
+
+
+.input4 p{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  margin: auto;
+  background-color: white;
+}
+.homeBack{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.volverHome h2{
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+  font-size: 40px;
+  display: flex;
+  border-bottom: 5px solid blue;
+  border-right: 5px solid blue;
+}
+.fa-home{
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+  background-color: black;
+}
+.footer ul li{
+  color:white
 }
