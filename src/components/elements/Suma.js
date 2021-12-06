@@ -18,6 +18,7 @@ class Suma extends Component {
       <input className='input2'  id ='numbreBS' type="number"/><br/>
       <i class="fas fa-equals"></i><br/>
       <label className='input4' id= 'resultadoS' ></label><br/>
+      < button className = 'input5' type = 'reset'> BORRAR </button> 
       <p className='input3' onClick = {this.sumar} >PROCESAR</p>
       </form>
       <article className ='homeBack'>

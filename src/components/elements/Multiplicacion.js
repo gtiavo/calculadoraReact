@@ -18,7 +18,8 @@ class Multiplicacion extends Component {
       <input className='input2' id ='numbreBM' type="number"/><br/>
       <i class="fas fa-equals"></i><br/>
       <label className='input4' id= 'resultadoM' ></label><br/>
-      <p className='input3' onClick = {this.multiplicar} >Enviar</p>
+      < button className = 'input5' type = 'reset'> BORRAR </button> 
+      <p className='input3' onClick = {this.multiplicar} >PROCESAR</p>
       </form>
       <article className ='homeBack'>
       <i class="fas fa-home"><Link to ='/' className = 'volverHome' > < h2>VOLVER A HOME</h2></Link></i>

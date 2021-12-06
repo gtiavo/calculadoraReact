@@ -18,6 +18,7 @@ class Resta extends Component {
       <input className='input2'  id ='numbreBR' type="number"/><br/>
       <i class="fas fa-equals"></i><br/>
       <label className='input4' id= 'resultadoR' ></label><br/>
+      < button className = 'input5' type = 'reset'> BORRAR </button> 
       <p className='input3' onClick = {this.restar} >PROCESAR</p>
       </form>
       <article className ='homeBack'>
